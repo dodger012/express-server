@@ -8,10 +8,6 @@
 ### Steps to run
 1. git clone `https://github.com/dodger012/express-server.git`
 1. cd express-server
-1. npm install
-1. npm run dev
+1. node server.js
 
 If you get an error saying unable to connect to the database, make sure you have installed and have mongodb running on your system. [this](https://treehouse.github.io/installation-guides/mac/mongo-mac.html) website might help
-
-### Production
-For production builds, use `npm run build` and then `npm run start`
